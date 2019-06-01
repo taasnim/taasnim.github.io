@@ -307,7 +307,7 @@
                             Suppose we are given <i>monolingual word embeddings</i> for source and target languages. We do not have any initial dictionary or external cross-lingual signal. Our <b>goal</b> is to learn word translation (a.k.a. bilingual lexicon induction) i.e. for a given source word, we want its translation in the target domain.
                             <br>
 
-                            Cross-lingual word embeddings learned from monolingual embeddings have a crucial role in many downstream tasks, ranging from machine translation to transfer learning. <i>Adversarial training</i> has shown impressive success in learning cross-lingual embeddings and the associated word translation task without any parallel data by mapping monolingual embeddings to a shared space. In this project, we investigate <b>adversarial autoencoder</b> for unsupervised word translation and propose <i>itwo novel extensions</i> to it that yield more stable training and improved results. Our method includes <b>regularization terms</b> to enforce <i>cycle consistency</i> and <i>input reconstruction</i>, and puts the target encoders as an adversary against the corresponding discriminator.
+                            Cross-lingual word embeddings learned from monolingual embeddings have a crucial role in many downstream tasks, ranging from machine translation to transfer learning. <i>Adversarial training</i> has shown impressive success in learning cross-lingual embeddings and the associated word translation task without any parallel data by mapping monolingual embeddings to a shared space. In this project, we investigate <b>adversarial autoencoder</b> for unsupervised word translation and propose <i>two novel extensions</i> to it that yield more stable training and improved results. Our method includes <b>regularization terms</b> to enforce <i>cycle consistency</i> and <i>input reconstruction</i>, and puts the target encoders as an adversary against the corresponding discriminator.
                             <br>
 
                             We use two types of <b>refinement procedures</b> sequentially after obtaining the trained encoders and mappings from the adversarial training, namely, <i>refinement with Procrustes solution</i> and <i>refinement with symmetric re-weighting</i>.
@@ -410,6 +410,7 @@
                                 <br>
 
                                 In this project, we conduct our research in <i>two steps</i>.
+                                <br>
                                 <b>First</b>, we propose improvements to the recently proposed <i>neural entity grid</i> model by <b>lexicalizing</b> its entity transitions. We propose methods based on word embeddings to achieve better generalization with the lexicalized model.
                                 <br>
 
