@@ -1,1 +1,1 @@
-template from # [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/)
+Template taken from # [Start Bootstrap - Resume](https://startbootstrap.com/theme/resume)
